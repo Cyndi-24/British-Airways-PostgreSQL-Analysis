@@ -1,32 +1,39 @@
 # British Airways Flight Operations Analysis Using PostgreSQL
 # By Ofolebe Cyndi
 ---
+
 ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/british_airways_image.png)
 
 ---
-INTRODUCTION
----
-British Airways is the largest international airline in the UK which offers world class services across 162 destinations.The operate a fleet of aircrafts ranging from Airbus and Boeing.It offers  customer support through its website,mobile app and phone helpline which helps passengers to book flights and manage bookings online. 
+## INTRODUCTION
 
----
-PROBLEM STATEMENT
----
-This project is focused on analysing the data provided by the company in order to further improve the company. With the help of the questions that will be answered using Sql queries, British Airline will know the areas the capitalize on in order to generate more revenue,increase the customer base and satisfy their customers.
-The questions are as follows;
- * Which manufacturer has the besr aircrafts in terms of fuel efficiency?
- * Does British Airways tend to use aircrafts from manufacturers known for their superior efficiencymore frequently?
- * Which month did passengers cancel the flight the most?
- * which city do passengers travel the most?
- * What is the revenue generated from baggage overtime?
- * what is tha average number of passengers for each month like?
+British Airways operates a large network of flights, with different aircraft, routes, and passenger patterns to manage.
+This project explores British Airways flight data to understand areas such as aircraft efficiency, passenger trends, cancellations, popular destinations, and additional revenue opportunities.
 
----
-DATA SOURCING
----
+The aim of this analysis is to uncover patterns within the data and highlight insights that can help better understand flight operations and customer demand.
 
-The data set was obtained from kaggle.com
+## PROBLEM STATEMENT
 
----
+British Airways generates a large amount of flight data, but raw data alone does not explain how different operational factors affect performance.
+
+This project focuses on exploring key questions around flight demand, aircraft usage, cancellations, passenger trends, and revenue opportunities to uncover patterns that provide a clearer understanding of the business.
+
+## BUSINESS QUESTIONS
+
+The analysis was guided by the following questions:
+
+1. Which aircraft manufacturers are most commonly used?
+2. Which aircraft models demonstrate better fuel efficiency?
+3. Which destinations have the highest passenger demand?
+4. What months experience the highest number of cancellations?
+5. How does passenger traffic change over time?
+6. How much revenue is generated from additional services such as baggage fees?
+
+
+## DATA SOURCING
+
+The dataset used for this project contains British Airways flight information, including details on flights, routes, aircraft, passengers, and operational activities.
+
 DATA MODEL/ERD
 ---
 ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/ERD.png)
@@ -34,7 +41,7 @@ DATA MODEL/ERD
  ---
  SKILLS DEMONSTRATED
  ---
- * Data Cleaning; The data was throughly cleaned using MS Excel via removal of duplicates,some blanks were removed while some were filled      up,formating of the data types to match sql column data types,standardization of date, time and currency.
+ * Data Cleaning; The data was throughly cleaned using MS Excel via removal of duplicates,some blanks were removed while some were filledll up,formating of the data types to match sql column data types,standardization of date, time and currency.
  * Data Importation; A database  was created and tables were created prior to the importation of the data
    AIRCRAFTS TABLE
   # Query

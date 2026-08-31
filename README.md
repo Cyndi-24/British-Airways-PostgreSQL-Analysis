@@ -121,7 +121,8 @@ The prepared datasets were imported into PostgreSQL, and tables were created wit
 
    
   # ANALYSIS AND VISUALISATION 
-   ## Which aircraft manufacturers demonstrate higher fuel efficiency?
+  
+ ## Which aircraft manufacturers demonstrate higher fuel efficiency?
  ### Query
     
   ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/best_aircraft_via_fuel_effiency.png)
@@ -134,7 +135,7 @@ The prepared datasets were imported into PostgreSQL, and tables were created wit
 
 Among the manufacturers analysed, Mitsubishi recorded the highest average fuel efficiency value in the dataset.
 
-## Are British Airways' frequently used aircraft from more fuel-efficient manufacturers?
+ ## Are British Airways' frequently used aircraft from more fuel-efficient manufacturers?
   
  ### Query
     
@@ -148,58 +149,78 @@ Among the manufacturers analysed, Mitsubishi recorded the highest average fuel e
 
 British Airways uses Boeing aircraft more frequently, although Airbus aircraft showed better fuel efficiency in the dataset.
 
-    ---
-   Which month did passengers cancel flights the most?
-   ---
+## Which months recorded the highest number of cancelled flights?
 
-   # Query
+   ### Query
 
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/most_cancelled_flights.png)
     
-  # Result
+  ### Result
+  
    ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/answer_3.png)
-   
-  # INSIGHT
-   April was the month with the most cancelled flights.
+ 
+ ### Insight
 
----
+April recorded the highest number of cancelled flights among the months analysed.
 Which city  did passengers travel the most?
----
 
-# Query
+## Which destinations recorded the highest passenger demand?
+### Query
+
 ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/city_most_travelled.png)
 
-# Result
+### Result 
+
 ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/answer_4.png)
 
-# Insight
- London is the city most travelled to
+### Insight
 
- ---
- What is the revenue generated from baggage overtime?
- ---
- # Query
+London recorded the highest passenger volume in the dataset, making it the most travelled destination among the routes analysed.
+
+ ## How much revenue was generated from baggage services?
+
+ ### Query
+ 
 ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/baggage_overtime_revenue.png)
 
- # Result
+ ### Result
+ 
  ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/answer_5.png)
 
----
-What is the average number of passengers  for each month like?
+### Insight
+
+Baggage fees generated over $34 million in additional revenue for British Airways.
+
+
+## What is the average number of passengers for each month like?
 ---
 
-# Query
+### Query
+
 ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/avg_monthly_revenue.png)
 
-# Result
+### Result
+
 ![](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/answer_6.png)
 
----
- RECOMMENDATION AND CONCLUSION
- ---
-* The city passengers travelled to the most was **"London"** and this has to be capitalised on to generate more revenue.This can be achieved via creating more ports in  different parts London,resources or flights can be diverted from less travelled places to meet the demands of the frequently travelled places.
-* The month of **"April"** had the most cancelled flights but generated the most revenue.Investigation should be done to find out the reason for this via an online questionaire to help the company restrategize.The window for cancellation can also be reduced to avoid a lot of cancellation
-* With an idea of the average monthly passengers, dynamic pricing srategies can be implemented to adjust fares based on demand flunctuations thus maximizing revenue
-* For cities with fewer passengers  a larger booking time should me made available to accomodate more passengers and to avoid flying few passengers on a flight  and increased fuel consumption
-* Proper resources should be chanelled to ensure customers get optimum value  and satisfaction for their payments.
-  
+### Insight
+
+January had the highest average number of passengers with an average of 117 passengers per flight.
+
+# Recommendations
+
+Based on the analysis, British Airways can consider the following actions:
+
+- **Prioritise high-demand destinations:** Passenger volume analysis showed that some destinations attract significantly more travellers than others. British Airways can focus scheduling and available resources on these high-demand routes to better serve passenger needs.
+
+- **Improve cancellation management:** Since certain months recorded higher cancellation levels, British Airways can strengthen planning during these periods by improving scheduling decisions and operational preparation to reduce disruptions.
+
+- **Use passenger trends to support planning decisions:** Monthly passenger patterns can help British Airways better prepare for periods of higher demand by aligning flight availability and resources with expected passenger activity.
+
+- **Maximise additional service opportunities:** The revenue generated from baggage services shows the value of additional offerings beyond ticket sales. British Airways can continue improving and promoting relevant services that provide additional value to passengers.
+
+# CONCLUSION
+
+The analysis revealed key patterns in British Airways’ operations, including differences in aircraft performance, passenger demand across destinations, cancellation trends, and the contribution of additional services to revenue.
+
+These findings show how operational data can help identify areas of strength and opportunities for improvement. By understanding where demand is highest, where challenges occur, and which services contribute additional value, British Airways can make more informed decisions to improve efficiency and passenger experience.

@@ -120,39 +120,33 @@ The prepared datasets were imported into PostgreSQL, and tables were created wit
 ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/ERD.png)
 
    
-   ANALYSIS AND VISUALIZATION
-   ---
-   Using this data base I Will be ansering questions that are of interest to British Airways
-   
-   ---
-   Which manufacturer has the best aircrafts in terms of fuel effiency?
-   ---
-   
- # Query
+  # ANALYSIS AND VISUALISATION 
+   ## Which aircraft manufacturers demonstrate higher fuel efficiency?
+ ### Query
     
   ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/best_aircraft_via_fuel_effiency.png)
 
-  # Result
+  ### Result 
+  
   ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/answer_1.png)
 
-  # INSIGHT
-  
-  Mitsubushi has the best fuel efficiency
-  
-  ---
-  Does British Airways tend to use aircrafts from manufacturers known for their superior fuel efficiency more frquently?
-  ---
+  ### Insight
 
- # Query
+Among the manufacturers analysed, Mitsubishi recorded the highest average fuel efficiency value in the dataset.
+
+## Are British Airways' frequently used aircraft from more fuel-efficient manufacturers?
+  
+ ### Query
     
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/aircraft_used_more_frequently.png)
 
- # Result
+ ### Result
    
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/answer_2.png)
 
-  # Insight
-   British Airways uses Boeing more frequently
+ ### Insight
+
+British Airways uses Boeing aircraft more frequently, although Airbus aircraft showed better fuel efficiency in the dataset.
 
     ---
    Which month did passengers cancel flights the most?

@@ -75,47 +75,47 @@ The cleaned datasets were transformed into related tables, with each table repre
 - **Routes** — Contains information about flight origins and destinations.
 - **Fuel Efficiency** — Contains aircraft performance data related to fuel usage.
 
-### Table Creation
+## Table Creation
 
 The prepared datasets were imported into PostgreSQL, and tables were created with appropriate columns and data types to match the structure required for analysis.
 
- AIRCRAFTS TABLE
-  # Query
+ ## AIRCRAFTS TABLE
+  ### Query
   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/aircrafts_table_code.png)
 
-  # Result
+  ### Result
   
   ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/aircrafts_table2.png)
 
-  # FLIGHT TABLE
-  # Query
+  ## FLIGHT TABLE
+ ### Query
   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/flight_table_%20code.png)
 
-   # Result
+   ### Result
    
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/flight_table.png)
 
-   # FUEL EFFICIENCY TABLE
-   # Query
+   ## FUEL EFFICIENCY TABLE
+   ### Query
    
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/fuel_efficiency_table_code.png)
    
-   # Result
+   ### Result
    
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/fuel_efficiency_table.png)
 
-   # ROUTE TABLE
-   # Query
+   ## ROUTE TABLE
+   ### Query
    
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/route_table_code.png)
 
-   # Result
+   ### Result
    
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/route_table.png)
 
-   ### Entity Relationship Diagram (ERD)
+   ## Entity Relationship Diagram (ERD)
 
 ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/ERD.png)
 

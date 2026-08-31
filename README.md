@@ -20,58 +20,106 @@ This project focuses on exploring key questions around flight demand, aircraft u
 
 ## BUSINESS QUESTIONS
 
-The analysis was guided by the following questions:
+This analysis was guided by the following questions:
 
-1. Which aircraft manufacturers are most commonly used?
+1. Which aircraft manufacturers and models are most commonly used?
+
 2. Which aircraft models demonstrate better fuel efficiency?
-3. Which destinations have the highest passenger demand?
-4. What months experience the highest number of cancellations?
-5. How does passenger traffic change over time?
-6. How much revenue is generated from additional services such as baggage fees?
 
+3. Which routes and destinations have the highest passenger demand?
 
-## DATA SOURCING
+4. What trends can be identified in flight cancellations?
+
+5. How does passenger activity change over time?
+
+6. How much additional revenue is generated from services such as baggage fees?
+
+## DATA OVERVIEW 
 
 The dataset used for this project contains British Airways flight information, including details on flights, routes, aircraft, passengers, and operational activities.
 
-DATA MODEL/ERD
----
-![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/ERD.png)
+## TOOLS USED
 
- ---
- SKILLS DEMONSTRATED
- ---
- * Data Cleaning; The data was throughly cleaned using MS Excel via removal of duplicates,some blanks were removed while some were filledll up,formating of the data types to match sql column data types,standardization of date, time and currency.
- * Data Importation; A database  was created and tables were created prior to the importation of the data
-   AIRCRAFTS TABLE
+- Excel — Data cleaning and preparation before database analysis
+- PostgreSQL — Database creation, data management, and SQL-based analysis
+
+## SKILLS DEMONSTRATED
+
+- Data cleaning and preparation
+- Relational database creation and management
+- SQL querying and data analysis
+- Translating business questions into analytical queries
+- Identifying trends and patterns from data
+
+  ## DATA PREPARATION
+
+Before importing the data into PostgreSQL, the datasets were cleaned and prepared using Microsoft Excel.
+
+The preparation process involved:
+
+- Removing duplicate records.
+- Reviewing missing values and handling blanks where necessary.
+- Formatting data types to match the requirements of the PostgreSQL tables.
+- Standardising date, time, and currency formats.
+
+The cleaned datasets were then imported into PostgreSQL, where relational tables were created for further analysis.
+
+
+ ## DATABASE DESIGN & DATA MODELLING
+This project involved creating a relational database structure in PostgreSQL to organise British Airways flight data for analysis.
+
+The cleaned datasets were transformed into related tables, with each table representing a key area of the business:
+
+- **Aircrafts** — Contains aircraft details and manufacturer information.
+- **Flights** — Contains flight-level information, including passengers, routes, status, and revenue-related data.
+- **Routes** — Contains information about flight origins and destinations.
+- **Fuel Efficiency** — Contains aircraft performance data related to fuel usage.
+
+### Table Creation
+
+The prepared datasets were imported into PostgreSQL, and tables were created with appropriate columns and data types to match the structure required for analysis.
+
+ AIRCRAFTS TABLE
   # Query
+  
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/aircrafts_table_code.png)
 
   # Result
+  
   ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/aircrafts_table2.png)
 
   # FLIGHT TABLE
   # Query
+  
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/flight_table_%20code.png)
 
    # Result
+   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/flight_table.png)
 
    # FUEL EFFICIENCY TABLE
    # Query
+   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/fuel_efficiency_table_code.png)
    
    # Result
+   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/fuel_efficiency_table.png)
 
    # ROUTE TABLE
    # Query
+   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/route_table_code.png)
 
    # Result
+   
    ![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/route_table.png)
 
-   ---
+   ### Entity Relationship Diagram (ERD)
+
+![image alt](https://github.com/Cyndi-24/British-Airways-Analysis/blob/main/BA%20flights%20SQL%20PROJECTS/capstone_images/ERD.png)
+
+   
    ANALYSIS AND VISUALIZATION
    ---
    Using this data base I Will be ansering questions that are of interest to British Airways

@@ -10,8 +10,6 @@
 British Airways operates a large network of flights, with different aircraft, routes, and passenger patterns to manage.
 This project explores British Airways flight data to understand areas such as aircraft efficiency, passenger trends, cancellations, popular destinations, and additional revenue opportunities.
 
-The aim of this analysis is to uncover patterns within the data and highlight insights that can help better understand flight operations and customer demand.
-
 ## PROBLEM STATEMENT
 
 British Airways generates a large amount of flight data, but raw data alone does not explain how different operational factors affect performance.
@@ -43,15 +41,7 @@ The dataset used for this project contains British Airways flight information, i
 - Excel — Data cleaning and preparation before database analysis
 - PostgreSQL — Database creation, data management, and SQL-based analysis
 
-## SKILLS DEMONSTRATED
-
-- Data cleaning and preparation
-- Relational database creation and management
-- SQL querying and data analysis
-- Translating business questions into analytical queries
-- Identifying trends and patterns from data
-
-  ## DATA PREPARATION
+## DATA PREPARATION
 
 Before importing the data into PostgreSQL, the datasets were cleaned and prepared using Microsoft Excel.
 
@@ -226,7 +216,5 @@ This analysis provides insights based on the available British Airways flight da
 Therefore, the findings should be used as a starting point for understanding operational patterns rather than as the only basis for major business decisions.
 
 # CONCLUSION
-
-The analysis revealed key patterns in British Airways’ operations, including differences in aircraft performance, passenger demand across destinations, cancellation trends, and the contribution of additional services to revenue.
 
 These findings show how operational data can help identify areas of strength and opportunities for improvement. By understanding where demand is highest, where challenges occur, and which services contribute additional value, British Airways can make more informed decisions to improve efficiency and passenger experience.

@@ -209,12 +209,12 @@ Based on the analysis, British Airways can consider the following actions:
 
 - **Maximise additional service opportunities:** The revenue generated from baggage services shows the value of additional offerings beyond ticket sales. British Airways can continue improving and promoting relevant services that provide additional value to passengers.
 
-## LIMITATIONS
+## Limitations 
 
 This analysis provides insights based on the available British Airways flight dataset. However, the dataset does not include all factors that may influence operational decisions, such as ticket pricing, operating costs, customer demographics, or external factors affecting flight demand and cancellations.
 
 Therefore, the findings should be used as a starting point for understanding operational patterns rather than as the only basis for major business decisions.
 
-# CONCLUSION
+## Conclusion 
 
 These findings show how operational data can help identify areas of strength and opportunities for improvement. By understanding where demand is highest, where challenges occur, and which services contribute additional value, British Airways can make more informed decisions to improve efficiency and passenger experience.
